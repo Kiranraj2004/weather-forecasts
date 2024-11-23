@@ -1,0 +1,103 @@
+/* General page styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#333,
+  }
+  
+  /* Sidebar container */
+  .sidebar {
+    width: 30%;
+    height: 100vh;
+    background-color: #e6e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  /* Top sidebar section */
+  .topsidebar {
+    flex: 1;
+  }
+  
+  .searchbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .searchbar img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .searchbar input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .mainimage {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .temp {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .temp sup {
+    font-size: 24px;
+    color: #888;
+  }
+  
+  .date {
+    text-align: center;
+    font-size: 20px;
+    color: #888;
+  }
+  
+  .date span {
+    display: block;
+    font-size: 16px;
+  }
+  
+  /* Bottom sidebar section */
+  .bottomsidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
+  
+  .bottomsidebar img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .bottomsidebar p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .bottomsidebar p:nth-child(3) {
+    color: #666;
+  }
+  
